@@ -1,0 +1,123 @@
+2026-02-22 15:55:18.888 | WARNING  | forgekit.app.services.search:semantic_search:103 — Falling back to mock results after DB error: DB unavailable
+2026-02-22 15:55:18.998 | WARNING  | forgekit.app.services.search:hybrid_search:177 — Hybrid search fallback after DB error: DB unavailable
+2026-02-22 15:55:49.157 | WARNING  | forgekit.app.services.search:semantic_search:103 — Falling back to mock results after DB error: DB unavailable
+2026-02-22 15:55:49.265 | WARNING  | forgekit.app.services.search:hybrid_search:177 — Hybrid search fallback after DB error: DB unavailable
+2026-02-22 15:56:33.304 | WARNING  | forgekit.app.services.search:semantic_search:103 — Falling back to mock results after DB error: DB unavailable
+2026-02-22 15:56:33.425 | WARNING  | forgekit.app.services.search:hybrid_search:177 — Hybrid search fallback after DB error: DB unavailable
+2026-02-22 15:57:08.804 | WARNING  | forgekit.app.services.search:semantic_search:103 — Falling back to mock results after DB error: DB unavailable
+2026-02-22 15:57:08.945 | WARNING  | forgekit.app.services.search:hybrid_search:177 — Hybrid search fallback after DB error: DB unavailable
+2026-02-22 16:00:15.337 | WARNING  | forgekit.app.services.search:semantic_search:103 — Falling back to mock results after DB error: DB unavailable
+2026-02-22 16:00:15.361 | WARNING  | forgekit.app.services.search:hybrid_search:177 — Hybrid search fallback after DB error: DB unavailable
+2026-02-22 16:01:15.992 | WARNING  | forgekit.app.services.search:semantic_search:103 — Falling back to mock results after DB error: DB unavailable
+2026-02-22 16:01:16.014 | WARNING  | forgekit.app.services.search:hybrid_search:177 — Hybrid search fallback after DB error: DB unavailable
+2026-02-22 16:02:16.290 | WARNING  | forgekit.app.services.search:semantic_search:103 — Falling back to mock results after DB error: DB unavailable
+2026-02-22 16:02:16.310 | WARNING  | forgekit.app.services.search:hybrid_search:177 — Hybrid search fallback after DB error: DB unavailable
+2026-02-22 20:11:31.212 | SUCCESS  | forgekit.app.main:create_app:129 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:11:32.851 | INFO     | forgekit.app.api.endpoints.auth:login:51 — User 'testuser' logged in
+2026-02-22 20:12:02.970 | SUCCESS  | forgekit.app.main:create_app:129 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:12:04.064 | INFO     | forgekit.app.api.endpoints.auth:login:51 — User 'testuser' logged in
+2026-02-22 20:12:04.145 | SUCCESS  | forgekit.app.main:create_app:129 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:12:05.189 | SUCCESS  | forgekit.app.main:create_app:129 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:12:05.265 | SUCCESS  | forgekit.app.main:create_app:129 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:12:05.335 | SUCCESS  | forgekit.app.main:create_app:129 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:12:05.856 | INFO     | forgekit.app.api.endpoints.auth:register:85 — New user registered: 'newuser'
+2026-02-22 20:12:05.921 | SUCCESS  | forgekit.app.main:create_app:129 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:12:06.580 | SUCCESS  | forgekit.app.main:create_app:129 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:12:06.646 | SUCCESS  | forgekit.app.main:create_app:129 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:12:07.607 | INFO     | forgekit.app.api.endpoints.auth:login:51 — User 'testuser' logged in
+2026-02-22 20:12:07.689 | SUCCESS  | forgekit.app.main:create_app:129 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:12:07.763 | SUCCESS  | forgekit.app.main:create_app:129 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:12:07.836 | SUCCESS  | forgekit.app.main:create_app:129 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:12:07.906 | SUCCESS  | forgekit.app.main:create_app:129 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:12:08.864 | INFO     | forgekit.app.api.endpoints.auth:login:51 — User 'testuser' logged in
+2026-02-22 20:12:15.049 | SUCCESS  | forgekit.app.main:create_app:129 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:12:16.017 | INFO     | forgekit.app.api.endpoints.auth:login:51 — User 'testuser' logged in
+2026-02-22 20:12:21.551 | SUCCESS  | forgekit.app.main:create_app:129 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:12:22.556 | INFO     | forgekit.app.api.endpoints.auth:login:51 — User 'testuser' logged in
+2026-02-22 20:12:22.616 | SUCCESS  | forgekit.app.main:create_app:129 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:12:23.544 | INFO     | forgekit.app.api.endpoints.auth:login:51 — User 'testuser' logged in
+2026-02-22 20:12:23.609 | SUCCESS  | forgekit.app.main:create_app:129 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:12:24.521 | INFO     | forgekit.app.api.endpoints.auth:login:51 — User 'testuser' logged in
+2026-02-22 20:12:30.880 | SUCCESS  | forgekit.app.main:create_app:129 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:12:31.869 | INFO     | forgekit.app.api.endpoints.auth:login:51 — User 'testuser' logged in
+2026-02-22 20:12:38.380 | SUCCESS  | forgekit.app.main:create_app:129 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:12:38.458 | SUCCESS  | forgekit.app.main:create_app:129 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:12:38.577 | WARNING  | forgekit.app.services.search:semantic_search:103 — Falling back to mock results after DB error: DB unavailable
+2026-02-22 20:12:38.602 | WARNING  | forgekit.app.services.search:hybrid_search:177 — Hybrid search fallback after DB error: DB unavailable
+2026-02-22 20:13:08.333 | SUCCESS  | forgekit.app.main:create_app:129 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:13:09.342 | INFO     | forgekit.app.api.endpoints.auth:login:51 — User 'testuser' logged in
+2026-02-22 20:13:09.401 | SUCCESS  | forgekit.app.main:create_app:129 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:13:10.351 | SUCCESS  | forgekit.app.main:create_app:129 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:13:10.409 | SUCCESS  | forgekit.app.main:create_app:129 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:13:10.461 | SUCCESS  | forgekit.app.main:create_app:129 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:13:10.935 | INFO     | forgekit.app.api.endpoints.auth:register:85 — New user registered: 'newuser'
+2026-02-22 20:13:10.980 | SUCCESS  | forgekit.app.main:create_app:129 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:13:11.565 | SUCCESS  | forgekit.app.main:create_app:129 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:13:11.618 | SUCCESS  | forgekit.app.main:create_app:129 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:13:12.516 | INFO     | forgekit.app.api.endpoints.auth:login:51 — User 'testuser' logged in
+2026-02-22 20:13:12.568 | SUCCESS  | forgekit.app.main:create_app:129 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:13:12.614 | SUCCESS  | forgekit.app.main:create_app:129 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:13:12.663 | SUCCESS  | forgekit.app.main:create_app:129 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:13:12.712 | SUCCESS  | forgekit.app.main:create_app:129 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:13:13.625 | INFO     | forgekit.app.api.endpoints.auth:login:51 — User 'testuser' logged in
+2026-02-22 20:13:19.414 | SUCCESS  | forgekit.app.main:create_app:129 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:13:20.309 | INFO     | forgekit.app.api.endpoints.auth:login:51 — User 'testuser' logged in
+2026-02-22 20:13:25.598 | SUCCESS  | forgekit.app.main:create_app:129 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:13:26.490 | INFO     | forgekit.app.api.endpoints.auth:login:51 — User 'testuser' logged in
+2026-02-22 20:13:26.546 | SUCCESS  | forgekit.app.main:create_app:129 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:13:27.446 | INFO     | forgekit.app.api.endpoints.auth:login:51 — User 'testuser' logged in
+2026-02-22 20:13:27.503 | SUCCESS  | forgekit.app.main:create_app:129 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:13:28.395 | INFO     | forgekit.app.api.endpoints.auth:login:51 — User 'testuser' logged in
+2026-02-22 20:13:33.741 | SUCCESS  | forgekit.app.main:create_app:129 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:13:34.628 | INFO     | forgekit.app.api.endpoints.auth:login:51 — User 'testuser' logged in
+2026-02-22 20:13:39.904 | SUCCESS  | forgekit.app.main:create_app:129 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:13:39.949 | SUCCESS  | forgekit.app.main:create_app:129 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:13:40.016 | WARNING  | forgekit.app.services.search:semantic_search:103 — Falling back to mock results after DB error: DB unavailable
+2026-02-22 20:13:40.030 | WARNING  | forgekit.app.services.search:hybrid_search:177 — Hybrid search fallback after DB error: DB unavailable
+2026-02-22 20:14:48.257 | SUCCESS  | forgekit.app.main:create_app:129 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:14:49.310 | INFO     | forgekit.app.api.endpoints.auth:login:51 — User 'testuser' logged in
+2026-02-22 20:14:49.385 | SUCCESS  | forgekit.app.main:create_app:129 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:14:50.338 | SUCCESS  | forgekit.app.main:create_app:129 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:14:50.399 | SUCCESS  | forgekit.app.main:create_app:129 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:14:50.458 | SUCCESS  | forgekit.app.main:create_app:129 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:14:50.941 | INFO     | forgekit.app.api.endpoints.auth:register:85 — New user registered: 'newuser'
+2026-02-22 20:14:50.994 | SUCCESS  | forgekit.app.main:create_app:129 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:14:51.592 | SUCCESS  | forgekit.app.main:create_app:129 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:14:51.646 | SUCCESS  | forgekit.app.main:create_app:129 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:14:52.549 | INFO     | forgekit.app.api.endpoints.auth:login:51 — User 'testuser' logged in
+2026-02-22 20:14:52.609 | SUCCESS  | forgekit.app.main:create_app:129 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:14:52.666 | SUCCESS  | forgekit.app.main:create_app:129 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:14:52.730 | SUCCESS  | forgekit.app.main:create_app:129 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:14:52.787 | SUCCESS  | forgekit.app.main:create_app:129 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:14:53.691 | INFO     | forgekit.app.api.endpoints.auth:login:51 — User 'testuser' logged in
+2026-02-22 20:14:53.725 | INFO     | forgekit.app.api.endpoints.search:semantic_search:91 — Search: 'transformer attention' → 1 results in 0.000s
+2026-02-22 20:14:53.774 | SUCCESS  | forgekit.app.main:create_app:129 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:14:54.680 | INFO     | forgekit.app.api.endpoints.auth:login:51 — User 'testuser' logged in
+2026-02-22 20:14:54.693 | INFO     | forgekit.app.api.endpoints.search:semantic_search:91 — Search: 'neural networks' → 1 results in 0.000s
+2026-02-22 20:14:54.753 | SUCCESS  | forgekit.app.main:create_app:129 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:14:55.662 | INFO     | forgekit.app.api.endpoints.auth:login:51 — User 'testuser' logged in
+2026-02-22 20:14:55.724 | SUCCESS  | forgekit.app.main:create_app:129 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:14:56.636 | INFO     | forgekit.app.api.endpoints.auth:login:51 — User 'testuser' logged in
+2026-02-22 20:14:56.693 | SUCCESS  | forgekit.app.main:create_app:129 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:14:57.601 | INFO     | forgekit.app.api.endpoints.auth:login:51 — User 'testuser' logged in
+2026-02-22 20:14:57.614 | INFO     | forgekit.app.api.endpoints.search:semantic_search:91 — Search: 'deep learning' → 0 results in 0.000s
+2026-02-22 20:14:57.662 | SUCCESS  | forgekit.app.main:create_app:129 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:14:58.566 | INFO     | forgekit.app.api.endpoints.auth:login:51 — User 'testuser' logged in
+2026-02-22 20:14:58.578 | INFO     | forgekit.app.api.endpoints.search:semantic_search:91 — Search: 'test query' → 1 results in 0.000s
+2026-02-22 20:14:58.626 | SUCCESS  | forgekit.app.main:create_app:129 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:14:58.676 | SUCCESS  | forgekit.app.main:create_app:129 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:14:58.748 | WARNING  | forgekit.app.services.search:semantic_search:103 — Falling back to mock results after DB error: DB unavailable
+2026-02-22 20:14:58.762 | WARNING  | forgekit.app.services.search:hybrid_search:177 — Hybrid search fallback after DB error: DB unavailable
+2026-02-22 20:33:18.564 | SUCCESS  | forgekit.app.main:create_app:123 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:33:19.614 | INFO     | forgekit.app.api.endpoints.auth:login:51 — User 'testuser' logged in
+2026-02-22 20:33:19.699 | SUCCESS  | forgekit.app.main:create_app:123 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:33:20.722 | SUCCESS  | forgekit.app.main:create_app:123 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:33:20.777 | SUCCESS  | forgekit.app.main:create_app:123 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:33:20.831 | SUCCESS  | forgekit.app.main:create_app:123 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:33:21.312 | INFO     | forgekit.app.api.endpoints.auth:register:85 — New user registered: 'newuser'
+2026-02-22 20:33:21.355 | SUCCESS  | forgekit.app.main:create_app:123 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:33:21.932 | SUCCESS  | forgekit.app.main:create_app:123 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:33:21.993 | SUCCESS  | forgekit.app.main:create_app:123 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:33:22.929 | INFO     | forgekit.app.api.endpoints.auth:login:51 — User 'testuser' logged in
+2026-02-22 20:33:22.981 | SUCCESS  | forgekit.app.main:create_app:123 — ✅ ForgeKit app created — docs at /docs
+2026-02-22 20:33:23.034 | SUCCESS  | forgekit.app.main:create_app:123 — ✅ ForgeKit app created — docs at /docs

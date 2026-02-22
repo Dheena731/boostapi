@@ -1,0 +1,1 @@
+"""BoostAPI app package."""
