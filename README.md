@@ -75,6 +75,97 @@ app = create_app(settings=Settings(
 
 ---
 
+## 👨‍💻 Developer Guide
+
+Once you've scaffolded your project, you can easily extend it to build your application.
+
+### 1. Adding a Database Model
+
+Models are built using SQLAlchemy 2.0. Define your models in `app/db/models.py`:
+
+```python
+from sqlalchemy import String
+from sqlalchemy.orm import Mapped, mapped_column
+from boostapi.app.db.database import Base
+
+class Item(Base):
+    __tablename__ = "items"
+    
+    id: Mapped[int] = mapped_column(primary_key=True)
+    name: Mapped[str] = mapped_column(String(255), nullable=False)
+```
+
+### 2. Database Migrations (Alembic)
+
+After adding or modifying a model, generate and apply an Alembic migration:
+
+```bash
+# Generate a new migration script based on models
+alembic revision --autogenerate -m "Add items table"
+
+# Apply migrations to the database
+alembic upgrade head
+```
+
+### 3. Creating a New API Route
+
+Add your business logic and routes in `app/api/endpoints/`:
+
+```python
+# app/api/endpoints/items.py
+from fastapi import APIRouter, Depends
+from sqlalchemy.ext.asyncio import AsyncSession
+from sqlalchemy import select
+from boostapi.app.api.deps import get_db
+from app.db.models import Item
+
+router = APIRouter()
+
+@router.get("/")
+async def get_items(db: AsyncSession = Depends(get_db)):
+    result = await db.execute(select(Item))
+    return result.scalars().all()
+```
+
+Then register the router in `app/main.py`!
+
+### 4. Protecting Routes (JWT)
+
+To require authentication, inject the `get_current_user` dependency:
+
+```python
+from fastapi import Depends
+from boostapi.app.api.deps import get_current_user
+from boostapi.app.db.models import User
+
+@router.get("/protected")
+async def protected_route(current_user: User = Depends(get_current_user)):
+    return {"message": f"Hello {current_user.username}!"}
+```
+
+### 5. Using Redis Caching
+
+Inject the Redis client using `get_redis` to cache expensive computations or DB queries:
+
+```python
+from fastapi import Depends
+from redis.asyncio import Redis
+from boostapi.app.api.deps import get_redis
+
+@router.get("/stats")
+async def get_stats(redis: Redis = Depends(get_redis)):
+    cached = await redis.get("app_stats")
+    if cached:
+        return {"stats": cached, "cached": True}
+    
+    # Store with TTL (e.g., 60 seconds)
+    stats = "expensive_computation_result"
+    await redis.setex("app_stats", 60, stats)
+    return {"stats": stats, "cached": False}
+```
+
+---
+
 ## 🔌 API Reference
 
 ### Authentication
