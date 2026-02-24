@@ -11,3 +11,16 @@
 2026-02-22 21:55:32.748 | INFO     | boostapi.app.api.endpoints.auth:login:51 — User 'testuser' logged in
 2026-02-22 21:55:32.800 | SUCCESS  | boostapi.app.main:create_app:123 — ✅ BoostAPI app created — docs at /docs
 2026-02-22 21:55:32.845 | SUCCESS  | boostapi.app.main:create_app:123 — ✅ BoostAPI app created — docs at /docs
+2026-02-24 22:19:36.813 | SUCCESS  | boostapi.app.main:create_app:123 — ✅ BoostAPI app created — docs at /docs
+2026-02-24 22:19:37.943 | INFO     | boostapi.app.api.endpoints.auth:login:51 — User 'testuser' logged in
+2026-02-24 22:19:38.033 | SUCCESS  | boostapi.app.main:create_app:123 — ✅ BoostAPI app created — docs at /docs
+2026-02-24 22:19:39.071 | SUCCESS  | boostapi.app.main:create_app:123 — ✅ BoostAPI app created — docs at /docs
+2026-02-24 22:19:39.140 | SUCCESS  | boostapi.app.main:create_app:123 — ✅ BoostAPI app created — docs at /docs
+2026-02-24 22:19:39.199 | SUCCESS  | boostapi.app.main:create_app:123 — ✅ BoostAPI app created — docs at /docs
+2026-02-24 22:19:39.721 | INFO     | boostapi.app.api.endpoints.auth:register:85 — New user registered: 'newuser'
+2026-02-24 22:19:39.777 | SUCCESS  | boostapi.app.main:create_app:123 — ✅ BoostAPI app created — docs at /docs
+2026-02-24 22:19:40.337 | SUCCESS  | boostapi.app.main:create_app:123 — ✅ BoostAPI app created — docs at /docs
+2026-02-24 22:19:40.395 | SUCCESS  | boostapi.app.main:create_app:123 — ✅ BoostAPI app created — docs at /docs
+2026-02-24 22:19:41.354 | INFO     | boostapi.app.api.endpoints.auth:login:51 — User 'testuser' logged in
+2026-02-24 22:19:41.421 | SUCCESS  | boostapi.app.main:create_app:123 — ✅ BoostAPI app created — docs at /docs
+2026-02-24 22:19:41.477 | SUCCESS  | boostapi.app.main:create_app:123 — ✅ BoostAPI app created — docs at /docs

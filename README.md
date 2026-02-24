@@ -184,7 +184,7 @@ curl -X POST http://localhost:8000/api/v1/auth/login \
 
 ```bash
 curl http://localhost:8000/api/v1/health/
-# {"status": "healthy", "version": "0.1.0", "db": "ok", "redis": "ok"}
+# {"status": "healthy", "version": "0.1.1", "db": "ok", "redis": "ok"}
 ```
 
 ---

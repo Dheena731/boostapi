@@ -130,7 +130,7 @@ app = create_app()
 '''
 
 _REQUIREMENTS = """\
-boostapi>=0.1.0
+boostapi>=0.1.1
 uvicorn[standard]>=0.30.0
 """
 

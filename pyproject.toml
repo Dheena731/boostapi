@@ -1,6 +1,6 @@
 [project]
 name = "boostapi"
-version = "0.1.0"
+version = "0.1.1"
 description = "Production FastAPI starter toolkit with Redis, SQLAlchemy, JWT Auth, and CLI scaffolding"
 readme = "README.md"
 authors = [{name = "Dhinakaran", email = "dhinakaranthangaraj198@gmail.com"}]
@@ -26,6 +26,7 @@ requires-python = ">=3.10"
 dependencies = [
     "fastapi>=0.115.0",
     "uvicorn[standard]>=0.30.0",
+    "pydantic[email]>=2.0.0",
     "pydantic-settings>=2.8.0",
     "sqlalchemy[asyncio]>=2.0.0",
     "asyncpg>=0.29.0",
