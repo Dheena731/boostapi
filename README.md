@@ -5,12 +5,19 @@
 </p>
 
 <p align="center">
-  <a href="https://pypi.org/project/boostapi/"><img src="https://img.shields.io/pypi/v/boostapi?color=blue&logo=pypi&logoColor=white" alt="PyPI version"></a>
-  <a href="https://pypi.org/project/boostapi/"><img src="https://img.shields.io/pypi/pyversions/boostapi?logo=python&logoColor=white" alt="Python versions"></a>
-  <a href="https://github.com/dhinakaran/boostapi/actions"><img src="https://img.shields.io/github/actions/workflow/status/dhinakaran/boostapi/ci.yml?label=CI&logo=github" alt="CI"></a>
-  <a href="https://codecov.io/gh/dhinakaran/boostapi"><img src="https://img.shields.io/codecov/c/github/dhinakaran/boostapi?logo=codecov" alt="Coverage"></a>
-  <a href="https://github.com/dhinakaran/boostapi/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green" alt="MIT License"></a>
-  <a href="https://github.com/dhinakaran/boostapi"><img src="https://img.shields.io/github/stars/dhinakaran/boostapi?style=flat&logo=github" alt="GitHub Stars"></a>
+  <a href="https://pypi.org/project/boostapi/"><img src="https://img.shields.io/pypi/v/boostapi?color=blue&logo=pypi&logoColor=white" /></a>
+  
+  <a href="https://pepy.tech/projects/boostapi">
+    <img src="https://static.pepy.tech/personalized-badge/boostapi?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads" />
+  </a>
+
+  <a href="https://github.com/dheena731/boostapi/actions">
+    <img src="https://img.shields.io/github/actions/workflow/status/dheena731/boostapi/ci.yml?label=CI&logo=github" />
+  </a>
+
+  <a href="https://github.com/dheena731/boostapi">
+    <img src="https://img.shields.io/github/stars/dheena731/boostapi?style=flat&logo=github" />
+  </a>
 </p>
 
 ---
